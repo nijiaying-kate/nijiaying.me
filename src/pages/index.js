@@ -1,12 +1,14 @@
-import * as React from "react"
-import Seo from '../components/seo'
+import * as React from "react";
+import Seo from "../components/seo";
 
 const IndexPage = () => {
   return (
-    <div>nijiaying</div>
-  )
-}
+    <div>
+      nijiaying<div>24689</div>
+    </div>
+  );
+};
 
-export default IndexPage
+export default IndexPage;
 
-export const Head = () => <Seo />
+export const Head = () => <Seo />;

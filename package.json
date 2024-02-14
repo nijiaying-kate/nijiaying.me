@@ -15,8 +15,20 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "antd": "^5.14.1",
     "gatsby": "^5.13.2",
+    "gatsby-plugin-antd": "^2.2.0",
+    "gatsby-plugin-image": "^3.13.1",
+    "gatsby-plugin-less": "^7.13.1",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-sharp": "^5.13.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "overrides": {
+    "react-server-dom-webpack@0.0.0-experimental-c8b778b7f-20220825": {
+      "react": "^18.2.0"
+    }
   }
 }

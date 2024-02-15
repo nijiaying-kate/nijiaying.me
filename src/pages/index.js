@@ -1,12 +1,9 @@
 import * as React from "react";
 import Seo from "../components/seo";
+import Home from "../components/home/home"; // 1. import the component
 
 const IndexPage = () => {
-  return (
-    <div>
-      nijiaying<div>24689</div>
-    </div>
-  );
+  return <Home />;
 };
 
 export default IndexPage;

@@ -32,7 +32,7 @@ const Home = () => {
           </div>
           <a
             target="_blank"
-            href="mailto:nijiayingkate@gamil.com"
+            href="mailto:nijiayingkate@gmail.com"
             rel="noopener noreferrer"
           >
             <Row className="home-row">
@@ -93,67 +93,52 @@ const Home = () => {
         <h1>About Me</h1>
         <div className="text-size">
           <p>
-            I define myself as a passionate and organized person. I am rigorous,
-            efficient and I appreciate quality work.
+            Hi! I'm Ni Jiaying. You can call me Kate as well. Now I am a
+            doctoral candidate focusing on the fields of Data Science in Finance
+            and Economics. My research aims to utilise data science and machine
+            learning techniques to help businesses accurately predict financial
+            distress and enhance the efficiency of financial decision-making. I
+            believe that research in this area is crucial for addressing
+            practical business issues and enhancing corporate competitiveness.
+            In the future, I hope to apply my research findings to sectors such
+            as finance, investment, and corporate management, contributing to
+            practical applications and industry development.
           </p>
         </div>
         <div className="text-size">
           <p>
-            I am constantly learning about new technologies, and I undertake new
-            personal projects in order to deepen my knowledge as well as to be
-            able to propose solutions adapted to the work.
+            Prior to pursuing my doctoral degree, I have held various positions
+            in the financial industry. During my tenure as an Institutional Fund
+            Operations Manager at XXXXX. My responsibilities included business
+            support, fund operations, and post-loan management, and I achieved a
+            series of significant accomplishments.
           </p>
         </div>
         <div className="text-size">
           <p>
-            I particularly like working in a team but I also know how to be
-            independent when necessary.
+            As a doctoral candidate, I am eagerly anticipating my future career
+            development. I aspire to apply my expertise in fields such as
+            finance, technology, and consultancy, engaging in roles related to
+            data science, financial analysis, and risk management. I am
+            committed to becoming a technically proficient and business-savvy
+            professional, providing robust support for corporate development and
+            innovation. I am looking forward to integrating my work experience
+            with academic research to lay a solid foundation for my future
+            career development.
           </p>
         </div>
         <div className="text-size">
-          <p>
-            I thrive not only by working, but also by bringing value to the
-            company, in which the ability to face challenges, recognize and
-            rectify mistakes and be tenacious is essential.
-          </p>
+          <p>This website offers a comprehensive resume with testimonials,</p>
         </div>
         <div className="home-left-carousel">
           <Carousel autoplay>
             <div className="text-size">
               <h4>2022 annual appraisal</h4>
-              <p>
-                Xiang has done an excellent year. I could see a lot of changes
-                happening. Xiang took the lead on architecture proposing several
-                scenarios using HLD (High Level Design) methodology/System
-                Design, and moving step by step to the specifics. He proposed to
-                add a proxy in the design which bring a lot of benefits. The
-                proposed solution came with several improvements linked to the
-                event management. All the points are discussed with the team
-                before being implemented. Some technical choices were debate and
-                I could see that Xiang did not impose its solution and if the
-                arguments brought by the other team members was making sense, he
-                was able to accept their counter proposal. Xiang is in good
-                track to improve its communication skills. Technically he is
-                able to check the peers contribution and integrate it quickly in
-                its reasoning. This ability make him quick to spot issues and
-                find solutions/workaround. Again, a very good job in 2022. I
-                hope Xiang will continue to perform like this in 2023.
-              </p>
+              <p>Xiang</p>
             </div>
             <div className="text-size">
               <h4>2023 annual appraisal</h4>
-              <p>
-                Xiang did a very good year. Its contribution helped to build
-                product on time. He has a major contribution in Webhook and
-                SlimCollect products. We can see that Thanks to him and the team
-                we are delivering products which are long due by the company
-                (webhook) in a few months. Xiang handled the changes as a team
-                leader without creating any tension, by respecting its
-                colleagues as equal, and helping them when needed. Please
-                continue like this as 2024 will be the opportunity to build a
-                bigger picture of the company on the Direct Debit front. We will
-                need Xiang strength to build this new picture.
-              </p>
+              <p>Xiang did a very good year.</p>
             </div>
           </Carousel>
         </div>

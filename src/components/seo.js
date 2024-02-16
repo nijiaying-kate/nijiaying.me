@@ -1,6 +1,6 @@
-import * as React from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
-import STAR from '../images/dkc.png'
+import * as React from "react";
+import { graphql, useStaticQuery } from "gatsby";
+import STAR from "../images/head.png";
 
 const Seo = () => {
   const data = useStaticQuery(graphql`
@@ -11,10 +11,13 @@ const Seo = () => {
         }
       }
     }
-  `)
+  `);
   return (
-    <title><link rel="icon" href={STAR} />{data.site.siteMetadata.title}</title>
-  )
-}
+    <title>
+      <link rel="icon" href={STAR} />
+      {data.site.siteMetadata.title}
+    </title>
+  );
+};
 
-export default Seo
+export default Seo;

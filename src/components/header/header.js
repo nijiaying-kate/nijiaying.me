@@ -55,7 +55,7 @@ const MyHeader = () => {
   return (
     <Flex justify="space-between" align="center" className="header">
       <div className="header-logo">
-        <img alt="logo" src={`logo.png`} className="header-logo" />
+        <img alt="logo" src={`headlogo.png`} className="header-logo" />
       </div>
       <Menu
         mode="horizontal"

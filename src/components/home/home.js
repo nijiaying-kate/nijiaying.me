@@ -1,8 +1,8 @@
-import * as React from 'react'
-import { Avatar, Badge, Flex, Row, Col, Carousel } from 'antd'
-import { Link } from 'gatsby'
+import * as React from "react";
+import { Avatar, Badge, Flex, Row, Col, Carousel } from "antd";
+import { Link } from "gatsby";
 
-import './home.less'
+import "./home.less";
 
 const Home = () => {
   return (
@@ -11,26 +11,28 @@ const Home = () => {
         <div className="home-xiang-avatar">
           <Link to="/">
             <Badge>
-              <Avatar src={`xiang.jpg`} className="xiang-avatar" />
+              <Avatar src={`headphoto.jpg`} className="xiang-avatar" />
             </Badge>
           </Link>
         </div>
         <div className="home-left-name">
           <Link to="/">
-            <p>LI Xiang - 李 想</p>
+            <p>Ni Jiaying (Kate)</p>
           </Link>
         </div>
         <div className="home-left-links display-none">
           <div className="home-left-text">
             <p>
-              With Experience and Education in the areas of Computer Science, my
-              interest is to continuously improve in the fields of AI/ML and
-              System Design
+              With Experience and Education in the areas of Knowledge Science.
+            </p>
+            <p>
+              My interest is to continuously improve application of Data Science
+              in the fields of Finance and Economics.
             </p>
           </div>
           <a
             target="_blank"
-            href="mailto:xiangli1105@hotmail.com"
+            href="mailto:nijiayingkate@gamil.com"
             rel="noopener noreferrer"
           >
             <Row className="home-row">
@@ -44,7 +46,7 @@ const Home = () => {
           </a>
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/xiang-li-3346b512a/"
+            href="https://www.linkedin.com/in/jiaying-ni-b5161815a/"
             rel="noopener noreferrer"
           >
             <Row className="home-row">
@@ -58,7 +60,7 @@ const Home = () => {
           </a>
           <a
             target="_blank"
-            href="https://github.com/MagicienDeCode"
+            href="https://github.com/jiayingni-kate"
             rel="noopener noreferrer"
           >
             <Row className="home-row">
@@ -72,21 +74,7 @@ const Home = () => {
           </a>
           <a
             target="_blank"
-            href="https://www.youtube.com/channel/UCERe5JqcmPtyo3dzX94by1g?sub_confirmation=1"
-            rel="noopener noreferrer"
-          >
-            <Row className="home-row">
-              <Col>
-                <img alt="youtube" className="home-img" src={`youtube.png`} />
-              </Col>
-              <Col>
-                <span className="text-link"> Youtube </span>
-              </Col>
-            </Row>
-          </a>
-          <a
-            target="_blank"
-            href="https://leetcode.com/MagicienDeCode/"
+            href="https://leetcode.com/nijiayingkate/"
             rel="noopener noreferrer"
           >
             <Row className="home-row">
@@ -95,20 +83,6 @@ const Home = () => {
               </Col>
               <Col>
                 <span className="text-link"> Leetcode </span>
-              </Col>
-            </Row>
-          </a>
-          <a
-            target="_blank"
-            href="https://space.bilibili.com/520811931"
-            rel="noopener noreferrer"
-          >
-            <Row className="home-row">
-              <Col>
-                <img alt="bilibili" className="home-img" src={`bilibili.png`} />
-              </Col>
-              <Col>
-                <span className="text-link"> Bilibili </span>
               </Col>
             </Row>
           </a>
@@ -185,7 +159,7 @@ const Home = () => {
         </div>
       </div>
     </Flex>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

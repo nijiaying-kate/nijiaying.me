@@ -1,6 +1,6 @@
-import * as React from 'react'
-import './footer.less'
-import { Row, Flex } from 'antd'
+import * as React from "react";
+import "./footer.less";
+import { Row, Flex } from "antd";
 
 const MyFooter = () => {
   return (
@@ -9,7 +9,7 @@ const MyFooter = () => {
         <div className="footer-col">
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/xiang-li-3346b512a/"
+            href="https://www.linkedin.com/in/jiaying-ni-b5161815a/"
             rel="noopener noreferrer"
           >
             <Flex justify="center" align="center">
@@ -26,7 +26,7 @@ const MyFooter = () => {
         <div className="footer-col">
           <a
             target="_blank"
-            href="https://github.com/MagicienDeCode"
+            href="https://github.com/jiayingni-kate"
             rel="noopener noreferrer"
           >
             <Flex justify="center" align="center">
@@ -38,47 +38,7 @@ const MyFooter = () => {
         <div className="footer-col">
           <a
             target="_blank"
-            href="https://www.youtube.com/channel/UCERe5JqcmPtyo3dzX94by1g?sub_confirmation=1"
-            rel="noopener noreferrer"
-          >
-            <Flex justify="center" align="center">
-              <img alt="youtube" className="footer-img" src={`youtube-w.png`} />
-              <span className="footer-row-text">YOUTUBE</span>
-            </Flex>
-          </a>
-        </div>
-        <div className="footer-col">
-          <a
-            target="_blank"
-            href="https://space.bilibili.com/520811931"
-            rel="noopener noreferrer"
-          >
-            <Flex justify="center" align="center">
-              <img
-                alt="bilibili"
-                className="footer-img"
-                src={`bilibili-w.png`}
-              />
-              <span className="footer-row-text">BILIBILI</span>
-            </Flex>
-          </a>
-        </div>
-        <div className="footer-col">
-          <a
-            target="_blank"
-            href="https://www.ixigua.com/home/105169725727/"
-            rel="noopener noreferrer"
-          >
-            <Flex justify="center" align="center">
-              <img alt="xigua" className="footer-img" src={`xigua-w.png`} />
-              <span className="footer-row-text">XIGUA</span>
-            </Flex>
-          </a>
-        </div>
-        <div className="footer-col">
-          <a
-            target="_blank"
-            href="https://leetcode.com/MagicienDeCode/"
+            href="https://leetcode.com/nijiayingkate/"
             rel="noopener noreferrer"
           >
             <Flex justify="center" align="center">
@@ -94,10 +54,10 @@ const MyFooter = () => {
       </Flex>
       <Row justify="center">
         <div className="copyright">
-          <p>©{new Date().getFullYear()} Created by LI Xiang</p>
+          <p>©{new Date().getFullYear()} Created by Ni Jiaying</p>
         </div>
       </Row>
     </div>
-  )
-}
-export default MyFooter
+  );
+};
+export default MyFooter;

@@ -130,6 +130,7 @@ const Home = () => {
         <div className="text-size">
           <p>This website offers a comprehensive resume with testimonials,</p>
         </div>
+        <div className="home-right-divider-bgc" />
         <div className="home-left-carousel">
           <Carousel autoplay>
             <div className="text-size">

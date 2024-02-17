@@ -19,9 +19,13 @@ function getItem(label, key, icon, children) {
   };
 }
 const items = [
-  getItem("Resume", "1", <FileDoneOutlined style={{ fontSize: "1.3em" }} />),
   getItem(
-    "Projects ↓",
+    <span className="menu-titles">Resume</span>,
+    "1",
+    <FileDoneOutlined style={{ fontSize: "1.3em" }} />
+  ),
+  getItem(
+    <span className="menu-titles ant-menu-title-content">Projects ↓</span>,
     "sub1",
     <AppstoreAddOutlined style={{ fontSize: "1.3em" }} />,
     [
@@ -34,7 +38,7 @@ const items = [
     ]
   ),
   getItem(
-    "Articles ↓",
+    <span className="menu-titles ant-menu-title-content">Articles ↓</span>,
     "sub2",
     <FolderOpenOutlined style={{ fontSize: "1.3em" }} />,
     [
@@ -45,7 +49,9 @@ const items = [
     ]
   ),
   getItem(
-    <Link to="/">Contact</Link>,
+    <Link to="/">
+      <span className="menu-titles">Contact</span>
+    </Link>,
     "link",
     <ContactsOutlined style={{ fontSize: "1.3em" }} />
   ),

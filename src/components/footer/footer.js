@@ -26,7 +26,7 @@ const MyFooter = () => {
         <div className="footer-col">
           <a
             target="_blank"
-            href="https://github.com/jiayingni-kate"
+            href="https://github.com/nijiaying-kate"
             rel="noopener noreferrer"
           >
             <Flex justify="center" align="center">

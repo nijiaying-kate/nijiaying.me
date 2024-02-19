@@ -1,6 +1,6 @@
 import * as React from "react";
 import "./header.less";
-import { Menu, Flex } from "antd";
+import { Menu, Flex, ConfigProvider } from "antd";
 import { UnorderedListOutlined } from "@ant-design/icons";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
@@ -65,18 +65,28 @@ const MyHeader = () => {
           />
         </Link>
       </div>
-      <Menu
-        mode="horizontal"
-        className="header-menu"
-        selectable={false}
-        items={items}
-        overflowedIndicator={
-          <UnorderedListOutlined
-            style={{ fontSize: "1.5em", color: "#1677ff" }}
-          />
-        }
-        triggerSubMenuAction={"hover"}
-      />
+      <ConfigProvider
+        theme={{
+          components: {
+            Menu: {
+              horizontalItemSelectedColor: "#e7bfc0",
+            },
+          },
+        }}
+      >
+        <Menu
+          mode="horizontal"
+          className="header-menu"
+          selectable={false}
+          items={items}
+          overflowedIndicator={
+            <UnorderedListOutlined
+              style={{ fontSize: "1.5em", color: "#1677ff" }}
+            />
+          }
+          triggerSubMenuAction={"hover"}
+        />
+      </ConfigProvider>
     </Flex>
   );
 };

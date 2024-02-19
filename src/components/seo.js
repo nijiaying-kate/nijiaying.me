@@ -1,6 +1,6 @@
 import * as React from "react";
 import { graphql, useStaticQuery } from "gatsby";
-import STAR from "../images/head.png";
+import STAR from "../images/head2.png";
 
 const Seo = () => {
   const data = useStaticQuery(graphql`

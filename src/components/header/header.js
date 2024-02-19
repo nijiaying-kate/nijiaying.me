@@ -61,7 +61,7 @@ const MyHeader = () => {
     <Flex justify="space-between" align="center" className="header">
       <div className="header-logo">
         <Link to="/">
-          <img alt="logo" src={`headlogo3.png`} className="header-logo" />
+          <img alt="logo" src={`headlogo4.png`} className="header-logo" />
         </Link>
       </div>
       <Menu

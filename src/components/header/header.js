@@ -1,14 +1,9 @@
 import * as React from "react";
 import "./header.less";
 import { Menu, Flex } from "antd";
-import {
-  AppstoreAddOutlined,
-  FileDoneOutlined,
-  FolderOpenOutlined,
-  ContactsOutlined,
-  UnorderedListOutlined,
-} from "@ant-design/icons";
+import { UnorderedListOutlined } from "@ant-design/icons";
 import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 
 function getItem(label, key, icon, children) {
   return {
@@ -19,7 +14,9 @@ function getItem(label, key, icon, children) {
 }
 const items = [
   getItem(
-    <span className="menu-titles ant-menu-title-content">Resume</span>,
+    <Link to="/resume" className="decoration-none">
+      <span className="menu-titles ant-menu-title-content">Resume</span>
+    </Link>,
     "1",
     ""
   ),
@@ -61,7 +58,11 @@ const MyHeader = () => {
     <Flex justify="space-between" align="center" className="header">
       <div className="header-logo">
         <Link to="/">
-          <img alt="logo" src={`headlogo4.png`} className="header-logo" />
+          <StaticImage
+            alt="logo"
+            src="../../images/headlogo4.png"
+            className="header-logo"
+          />
         </Link>
       </div>
       <Menu

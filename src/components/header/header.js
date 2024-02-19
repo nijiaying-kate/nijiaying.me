@@ -13,15 +13,18 @@ import { Link } from "gatsby";
 function getItem(label, key, icon, children) {
   return {
     key,
-    icon,
     children,
     label,
   };
 }
 const items = [
-  getItem(<span className="menu-titles">Resume</span>, "1", ""),
   getItem(
-    <span className="menu-titles ant-menu-title-content">Projects ↓</span>,
+    <span className="menu-titles ant-menu-title-content">Resume</span>,
+    "1",
+    ""
+  ),
+  getItem(
+    <span className="menu-titles ant-menu-title-content">Projects </span>,
     "sub1",
     "",
     [
@@ -34,7 +37,7 @@ const items = [
     ]
   ),
   getItem(
-    <span className="menu-titles ant-menu-title-content">Articles ↓</span>,
+    <span className="menu-titles ant-menu-title-content">Articles </span>,
     "sub2",
     "",
     [
@@ -45,8 +48,8 @@ const items = [
     ]
   ),
   getItem(
-    <Link to="/">
-      <span className="menu-titles">Contact</span>
+    <Link to="/" className="decoration-none">
+      <span className="menu-titles ant-menu-title-content">Contact</span>
     </Link>,
     "link",
     ""

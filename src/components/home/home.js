@@ -37,7 +37,7 @@ const Home = () => {
           >
             <Row className="home-row">
               <Col>
-                <img alt="email" className="home-img" src={`email.png`} />
+                <img alt="email" className="home-img" src={`email_pink.png`} />
               </Col>
               <Col>
                 <span className="text-link"> Email </span>
@@ -51,7 +51,11 @@ const Home = () => {
           >
             <Row className="home-row">
               <Col>
-                <img alt="linkedin" className="home-img" src={`linkedin.png`} />
+                <img
+                  alt="linkedin"
+                  className="home-img"
+                  src={`linkedin_pink.png`}
+                />
               </Col>
               <Col>
                 <span className="text-link"> Linkedin </span>
@@ -65,7 +69,11 @@ const Home = () => {
           >
             <Row className="home-row">
               <Col>
-                <img alt="github" className="home-img" src={`github.png`} />
+                <img
+                  alt="github"
+                  className="home-img"
+                  src={`github_pink.png`}
+                />
               </Col>
               <Col>
                 <span className="text-link"> Github</span>
@@ -79,7 +87,11 @@ const Home = () => {
           >
             <Row className="home-row">
               <Col>
-                <img alt="leetcode" className="home-img" src={`leetcode.png`} />
+                <img
+                  alt="leetcode"
+                  className="home-img"
+                  src={`leetcode_pink.png`}
+                />
               </Col>
               <Col>
                 <span className="text-link"> Leetcode </span>
@@ -135,11 +147,11 @@ const Home = () => {
           <Carousel autoplay>
             <div className="text-size">
               <h4>2022 annual appraisal</h4>
-              <p>Xiang</p>
+              <p>Try to ask for comments from my TA work.</p>
             </div>
             <div className="text-size">
               <h4>2023 annual appraisal</h4>
-              <p>Xiang did a very good year.</p>
+              <p>Comments 2</p>
             </div>
           </Carousel>
         </div>

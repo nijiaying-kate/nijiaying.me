@@ -19,15 +19,11 @@ function getItem(label, key, icon, children) {
   };
 }
 const items = [
-  getItem(
-    <span className="menu-titles">Resume</span>,
-    "1",
-    <FileDoneOutlined style={{ fontSize: "1.3em" }} />
-  ),
+  getItem(<span className="menu-titles">Resume</span>, "1", ""),
   getItem(
     <span className="menu-titles ant-menu-title-content">Projects ↓</span>,
     "sub1",
-    <AppstoreAddOutlined style={{ fontSize: "1.3em" }} />,
+    "",
     [
       getItem("Option 3", "3"),
       getItem("Option 4", "4"),
@@ -40,7 +36,7 @@ const items = [
   getItem(
     <span className="menu-titles ant-menu-title-content">Articles ↓</span>,
     "sub2",
-    <FolderOpenOutlined style={{ fontSize: "1.3em" }} />,
+    "",
     [
       getItem("Option 7", "7"),
       getItem("Option 8", "8"),
@@ -53,7 +49,7 @@ const items = [
       <span className="menu-titles">Contact</span>
     </Link>,
     "link",
-    <ContactsOutlined style={{ fontSize: "1.3em" }} />
+    ""
   ),
 ];
 
@@ -62,7 +58,7 @@ const MyHeader = () => {
     <Flex justify="space-between" align="center" className="header">
       <div className="header-logo">
         <Link to="/">
-          <img alt="logo" src={`headlogo2.png`} className="header-logo" />
+          <img alt="logo" src={`headlogo3.png`} className="header-logo" />
         </Link>
       </div>
       <Menu

@@ -69,7 +69,7 @@ const MyHeader = () => {
         theme={{
           components: {
             Menu: {
-              horizontalItemSelectedColor: "#e7bfc0",
+              horizontalItemSelectedColor: "#D9AEB0",
             },
           },
         }}
@@ -81,7 +81,7 @@ const MyHeader = () => {
           items={items}
           overflowedIndicator={
             <UnorderedListOutlined
-              style={{ fontSize: "1.5em", color: "#1677ff" }}
+              style={{ fontSize: "1.5em", color: "#D9AEB0" }}
             />
           }
           triggerSubMenuAction={"hover"}

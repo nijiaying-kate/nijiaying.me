@@ -54,7 +54,7 @@ const Home = () => {
                 <img
                   alt="linkedin"
                   className="home-img"
-                  src={`linkedin_pink.png`}
+                  src={`linkedIn_pink.png`}
                 />
               </Col>
               <Col>

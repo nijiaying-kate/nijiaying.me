@@ -38,25 +38,15 @@ const Index = () => {
               className="resume-timeline"
               items={[
                 {
-                  dot: (
-                    <Badge>
-                      <Avatar src={`../email-1.png`} size={20} />
-                    </Badge>
-                  ),
-                  color: "grey",
+                  color: "#e7bfc0",
                   children: (
                     <Link to="#basic-info" className="decoration-none">
-                      <span className="resume-line-text">Resume</span>
+                      <span className="resume-line-text">RESUME</span>
                     </Link>
                   ),
                 },
                 {
-                  dot: (
-                    <Badge>
-                      <Avatar src={`../email-1.png`} size={20} />
-                    </Badge>
-                  ),
-                  color: "grey",
+                  color: "#e7bfc0",
                   children: (
                     <Link to="#skills" className="decoration-none">
                       <span className="resume-line-text">SKILLS</span>
@@ -64,12 +54,7 @@ const Index = () => {
                   ),
                 },
                 {
-                  dot: (
-                    <Badge>
-                      <Avatar src={`../email-1.png`} size={20} />
-                    </Badge>
-                  ),
-                  color: "grey",
+                  color: "#e7bfc0",
                   children: (
                     <Link to="#experience" className="decoration-none">
                       <span className="resume-line-text">EXPERIENCE</span>
@@ -77,12 +62,7 @@ const Index = () => {
                   ),
                 },
                 {
-                  dot: (
-                    <Badge>
-                      <Avatar src={`../email-1.png`} size={20} />
-                    </Badge>
-                  ),
-                  color: "grey",
+                  color: "#e7bfc0",
                   children: (
                     <Link to="#education" className="decoration-none">
                       <span className="resume-line-text">EDUCATION</span>
@@ -96,18 +76,18 @@ const Index = () => {
             <div>
               <h1 id="basic-info">Resume</h1>
               <Row>
-                <Col flex={4}>
+                <Col flex="1 1">
                   <h2>Ni Jiaying</h2>
-                  <h3>
+                  <p>
                     PhD Candidate at Japan Advanced Institute of Science and
                     Technology (JAIST)
-                  </h3>
-                  <h3>Financial risk management in Knowledge Science</h3>
+                  </p>
+                  <p>Financial risk management in Knowledge Science</p>
                 </Col>
-                <Col flex={1} className="basic-info-left-col">
+                <Col flex="0 1 150px" className="basic-info-left-col">
                   <Badge>
                     <Avatar
-                      src={`headphoto11.jpg`}
+                      src={`../headphoto11.jpg`}
                       className="resume-xiang-avatar"
                     />
                   </Badge>
@@ -115,7 +95,7 @@ const Index = () => {
               </Row>
             </div>
             <div>
-              <h1 id="skills">SKILLS</h1>
+              <h1 id="skills">Skills</h1>
               <div className="text-size">
                 <p>
                   This section includes all my skills and the level of
@@ -135,54 +115,50 @@ const Index = () => {
                     color="#e7bfc0"
                   >
                     <Flex align="center" gap="small">
-                      <Badge className="display-none skill-badge">
-                        <Avatar src={`../email-1.png`} />
-                      </Badge>
-                      <span className="skill-title">Java</span>
-                    </Flex>
-                    <Progress
-                      percent={100}
-                      size="small"
-                      showInfo={false}
-                      strokeColor="#e7bfc0"
-                    />
-                  </Tooltip>
-                </Col>
-                <Col className="gutter-row" span={8}>
-                  <Tooltip
-                    title="This section includes all my skills and the level of
-                  proficiency I have in each of them. I am first and foremost a
-                  Full Stack Software Engineer"
-                    color="#e7bfc0"
-                  >
-                    <Flex align="center" gap="small">
-                      <Badge className="display-none skill-badge">
-                        <Avatar src={`../email-1.png`} />
-                      </Badge>
-                      <span className="skill-title">Kotlin</span>
-                    </Flex>
-                    <Progress
-                      percent={90}
-                      size="small"
-                      showInfo={false}
-                      strokeColor="#e7bfc0"
-                    />
-                  </Tooltip>
-                </Col>
-                <Col className="gutter-row" span={8}>
-                  <Tooltip
-                    title="This section includes all my skills and the level of
-                  proficiency I have in each of them. I am first and foremost a
-                  Full Stack Software Engineer"
-                    color="#e7bfc0"
-                  >
-                    <Flex align="center" gap="small">
-                      <Badge className="display-none skill-badge">
-                        <Avatar src={`../email-1.png`} />
-                      </Badge>
                       <span className="skill-title">Python</span>
                     </Flex>
-                    <Progress percent={90} size="small" showInfo={false} />
+                    <Progress
+                      percent={50}
+                      size="small"
+                      showInfo={false}
+                      strokeColor="#e7bfc0"
+                    />
+                  </Tooltip>
+                </Col>
+                <Col className="gutter-row" span={8}>
+                  <Tooltip
+                    title="This section includes all my skills and the level of
+                  proficiency I have in each of them. I am first and foremost a
+                  Full Stack Software Engineer"
+                    color="#e7bfc0"
+                  >
+                    <Flex align="center" gap="small">
+                      <span className="skill-title">SQL</span>
+                    </Flex>
+                    <Progress
+                      percent={50}
+                      size="small"
+                      showInfo={false}
+                      strokeColor="#e7bfc0"
+                    />
+                  </Tooltip>
+                </Col>
+                <Col className="gutter-row" span={8}>
+                  <Tooltip
+                    title="This section includes all my skills and the level of
+                  proficiency I have in each of them. I am first and foremost a
+                  Full Stack Software Engineer"
+                    color="#e7bfc0"
+                  >
+                    <Flex align="center" gap="small">
+                      <span className="skill-title">STATA</span>
+                    </Flex>
+                    <Progress
+                      percent={50}
+                      size="small"
+                      showInfo={false}
+                      strokeColor="#e7bfc0"
+                    />
                   </Tooltip>
                 </Col>
               </Row>
@@ -195,12 +171,14 @@ const Index = () => {
                     color="#e7bfc0"
                   >
                     <Flex align="center" gap="small">
-                      <Badge className="display-none skill-badge">
-                        <Avatar src={`../email-1.png`} />
-                      </Badge>
-                      <span className="skill-title">JavaScript</span>
+                      <span className="skill-title">MS OFFICE</span>
                     </Flex>
-                    <Progress percent={80} size="small" showInfo={false} />
+                    <Progress
+                      percent={50}
+                      size="small"
+                      showInfo={false}
+                      strokeColor="#e7bfc0"
+                    />
                   </Tooltip>
                 </Col>
                 <Col className="gutter-row" span={8}>
@@ -211,12 +189,14 @@ const Index = () => {
                     color="#e7bfc0"
                   >
                     <Flex align="center" gap="small">
-                      <Badge className="display-none skill-badge">
-                        <Avatar src={`../email-1.png`} />
-                      </Badge>
-                      <span className="skill-title">Angular</span>
+                      <span className="skill-title">MS OFFICE</span>
                     </Flex>
-                    <Progress percent={70} size="small" showInfo={false} />
+                    <Progress
+                      percent={50}
+                      size="small"
+                      showInfo={false}
+                      strokeColor="#e7bfc0"
+                    />
                   </Tooltip>
                 </Col>
                 <Col className="gutter-row" span={8}>
@@ -227,12 +207,14 @@ const Index = () => {
                     color="#e7bfc0"
                   >
                     <Flex align="center" gap="small">
-                      <Badge className="display-none skill-badge">
-                        <Avatar src={`../email-1.png`} />
-                      </Badge>
-                      <span className="skill-title">React</span>
+                      <span className="skill-title">MS OFFICE</span>
                     </Flex>
-                    <Progress percent={70} size="small" showInfo={false} />
+                    <Progress
+                      percent={50}
+                      size="small"
+                      showInfo={false}
+                      strokeColor="#e7bfc0"
+                    />
                   </Tooltip>
                 </Col>
               </Row>
@@ -298,7 +280,7 @@ const Index = () => {
               </div>
             </div>
             <div>
-              <h1>Resume</h1>
+              <h1 id="education">EDUCATION</h1>
               <div className="text-size">
                 <p>
                   I define myself as a passionate and organized person. I am

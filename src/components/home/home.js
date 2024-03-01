@@ -11,7 +11,7 @@ const Home = () => {
         <div className="home-xiang-avatar">
           <Link to="/">
             <Badge>
-              <Avatar src={`headphoto.jpg`} className="xiang-avatar" />
+              <Avatar src={`headphoto11.jpg`} className="xiang-avatar" />
             </Badge>
           </Link>
         </div>
